@@ -1,4 +1,4 @@
-# 오름차순 정렬 selection sort
+# Selection Sort 오름차순 정렬
 
 def selection_sort(li):   # 파라미터로 1차원 리스트
     li_len = len(li)      # 리스트의 길이
