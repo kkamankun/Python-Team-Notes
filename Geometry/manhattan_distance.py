@@ -5,3 +5,5 @@ def manhattan_distance(pt1, pt2):  # 점1, 점2
     for i in range(len(pt1)):
         result += abs(pt2[i] - pt1[i])
     return result
+
+# print(manhattan_distance([5, 4, 3], [1, 7, 9]))
