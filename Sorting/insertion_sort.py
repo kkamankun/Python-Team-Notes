@@ -1,4 +1,4 @@
-# insertion sort 오름차순
+# Insertion Sort 오름차순 정렬
 
 def insertion_sort(li):
     li_len = len(li)   # 1차원 리스트 길이
