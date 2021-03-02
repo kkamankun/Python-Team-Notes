@@ -1,4 +1,4 @@
-"""Depth First Search (DFS)"""
+''' Depth First Search (DFS) '''
 def dfs(graph, v, visited):
     # 현재 노드를 방문 처리
     visited[v] = True
