@@ -1,11 +1,11 @@
-# 리턴이 있는 버전
-def quick_sort(li):
+''' 퀵 정렬(Quick Sort) 오름차순 정렬 '''
+def quick_sort(li):  # 리턴이 있는 버전
     # 리스트가 하나 이하의 원소만을 담고 있다면 종료
     if len(li) <= 1:
         return li
 
-    pivot = li[0]       # 피벗 == 첫 번째 원소
-    tail = li[1:]       # 피벗을 제외한 나머지
+    pivot = li[0]  # 피벗은 첫 번째 원소
+    tail = li[1:]  # 피벗을 제외한 나머지
     
     left_side = [x for x in tail if x <= pivot]  # 분할된 왼쪽 부분
     right_side = [x for x in tail if x > pivot]  # 분할된 오른쪽 부분
