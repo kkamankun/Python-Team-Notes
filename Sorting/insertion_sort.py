@@ -7,6 +7,7 @@ def insertion_sort(li):
                 li[j], li[j - 1] = li[j - 1], li[j]  # 이동을 swap 으로 구현
             else:    # 자기보다 작은 데이터를 만나면 그 위치에서 멈춤
                 break
+    return li
 
 
 print(insertion_sort([7, 5, 9, 0, 3, 1, 6, 2, 4, 8]))
