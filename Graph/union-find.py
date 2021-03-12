@@ -23,7 +23,7 @@ def union_parent(parent, a, b):
         parent[a] = b
 
 
-# 노드의 개수와 간선의 개수 입력받기
+# 노드의 개수와 간선(union 연산)의 개수 입력받기
 v, e = map(int, input().split())
 parent = [0] * (v + 1)      # 부모 테이블 초기화
 
@@ -42,7 +42,8 @@ for i in range(1, v + 1):
     print(find_parent(parent, i), end=' ')
 
 print()
+
 # 부모 테이블 출력
 print("부모 테이블: ", end='')
-for i in range(1, v+1):
+for i in range(1, v + 1):
     print(parent[i], end=' ')
